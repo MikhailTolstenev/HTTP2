@@ -6,7 +6,7 @@ public class Post {
     private final Object  copyright;
     private final String date;
     private final String explanation;
-//    private final String hdurl;
+    private final String hdurl;
     private final String media_type;
     private final String service_version;
     private final String title;
@@ -24,13 +24,15 @@ public class Post {
         this.copyright = copyright;
         this.date = date;
         this.explanation = explanation;
-//      this.hdurl = hdurl;
+        this.hdurl = hdurl;
         this.media_type = media_type;
         this.service_version = service_version;
         this.title = title;
         this.url = url;
     }
-
+    public String getHdurl() {
+        return hdurl;
+    }
     public Object getCopyright() {
         return copyright;
     }
