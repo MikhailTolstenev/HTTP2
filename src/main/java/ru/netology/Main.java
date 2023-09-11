@@ -54,7 +54,7 @@ public class Main {
         FileOutputStream fos = new FileOutputStream(file.getName());
         byte[] buffer = content2.readAllBytes();
         fos.write(buffer, 0, buffer.length);
-        System.out.println("Файл Записан");
+        System.out.println("Файл Записан!");
 
 
     }
